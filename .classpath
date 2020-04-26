@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="ressources/|ressources/" kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="lib/eclipselink/com.sun.tools.xjc_2.2.0.jar"/>
+	<classpathentry kind="lib" path="lib/eclipselink/com.sun.xml.bind_2.2.0.v201004141950.jar"/>
+	<classpathentry kind="lib" path="lib/eclipselink/eclipselink.jar"/>
+	<classpathentry kind="lib" path="lib/eclipselink/javax.activation_1.1.0.v201108011116.jar"/>
+	<classpathentry kind="lib" path="lib/eclipselink/javax.mail_1.4.0.v201005080615.jar"/>
+	<classpathentry kind="lib" path="lib/eclipselink/javax.persistence.source_2.1.0.v201304241213.jar"/>
+	<classpathentry kind="lib" path="lib/eclipselink/javax.xml.bind_2.2.0.v201105210648.jar"/>
+	<classpathentry kind="lib" path="lib/eclipselink/javax.xml.stream_1.0.1.v201004272200.jar"/>
+	<classpathentry kind="lib" path="lib/eclipselink/org.eclipse.persistence.jpa.modelgen.source_2.5.2.v20140319-9ad6abd.jar"/>
+	<classpathentry kind="lib" path="lib/eclipselink/org.eclipse.persistence.jpars.source_2.5.2.v20140319-9ad6abd.jar"/>
+	<classpathentry kind="lib" path="lib/javax.persistence-api-2.2.jar"/>
+	<classpathentry kind="lib" path="lib/driver/mysql-connector-java-5.1.35.jar"/>
+	<classpathentry kind="lib" path="src/ressources"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+	xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="Formation_JPA">
+
+		<class>ma.lndroid.tp.entity.manager.crud.dto.StudentEntity</class>
+		<class>ma.lndroid.tp.entity.manager.collection.mapping.list.dto.ListEmployee</class>
+		<class>ma.lndroid.tp.entity.manager.collection.mapping.set.dto.SetEmployee</class>
+		<class>ma.lndroid.tp.entity.manager.collection.mapping.map.dto.MapEmployee</class>
+		
+		<class>ma.lndroid.tp.entity.manager.mapping.one.to.one.dto.LibraryOneToOne</class>
+		<class>ma.lndroid.tp.entity.manager.mapping.one.to.one.dto.StudentOneToOne</class>
+		
+		<class>ma.lndroid.tp.entity.manager.mapping.one.to.many.dto.LibraryOneToMany</class>
+		<class>ma.lndroid.tp.entity.manager.mapping.one.to.many.dto.StudentOneToMany</class>
+		
+		
+		<class>ma.lndroid.tp.entity.manager.mapping.many.to.one.dto.LibraryManyToOne</class>
+		<class>ma.lndroid.tp.entity.manager.mapping.many.to.one.dto.StudentManyToOne</class>
+		
+		
+		<class>ma.lndroid.tp.entity.manager.mapping.many.to.many.dto.LibraryManyToMany</class>
+		<class>ma.lndroid.tp.entity.manager.mapping.many.to.many.dto.StudentManyToMany</class>
+
+		<class>ma.lndroid.tp.entity.manager.jpql.dto.StudentEntityJpql</class>
+		
+		<class>ma.lndroid.tp.entity.manager.Criteria.dto.StudentEntityCriteria</class>
+		
+		<class>ma.lndroid.tp.entity.manager.Inheritence.single.table.strategy.dto.EmployeeSTS</class>
+		<class>ma.lndroid.tp.entity.manager.Inheritence.single.table.strategy.dto.ActiveEmployeeSTS</class>
+		<class>ma.lndroid.tp.entity.manager.Inheritence.single.table.strategy.dto.RetiredEmployeeSTS</class>
+
+		<class>ma.lndroid.tp.entity.manager.Inheritence.joined.strategy.dto.EmployeeJS</class>
+		<class>ma.lndroid.tp.entity.manager.Inheritence.joined.strategy.dto.ActiveEmployeeJS</class>
+		<class>ma.lndroid.tp.entity.manager.Inheritence.joined.strategy.dto.RetiredEmployeeJS</class>
+
+
+		<class>ma.lndroid.tp.entity.manager.Inheritence.table.per.entity.strategy.dto.EmployeeTPC</class>
+		<class>ma.lndroid.tp.entity.manager.Inheritence.table.per.entity.strategy.dto.ActiveEmployeeTPC</class>
+		<class>ma.lndroid.tp.entity.manager.Inheritence.table.per.entity.strategy.dto.RetiredEmployeeTPC</class>
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+
+		<properties>
+			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/formation_jpa" />
+			<property name="javax.persistence.jdbc.user" value="root" />
+			<property name="javax.persistence.jdbc.password" value="" />
+			<property name="eclipselink.logging.level" value="FINE" />
+
+			<property name="eclipselink.ddl-generation" value="drop-and-create-tables" />
+			<!-- create-or-extend-tables -->
+
+		</properties>
+
+
+	</persistence-unit>
+</persistence>
